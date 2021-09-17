@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cWmr4FGwNFV7E50x7W9zP6mExiIYRKPaA7/ITZHZLVvvEdgIgr3cLjU1CDgk6n+isJ4EBcCzEiTzcBkOt5bVPQ==",
+  "dgSpecHash": "ssNCb2POHW2nSxpNkrMcJUdzNuf5qK7f1HVSGooWT69jYqm2R/4CIaClIPmAMRkXVp59xckaRbFiWvXp7KWaMA==",
   "success": true,
   "projectFilePath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
   "expectedPackageFiles": [
