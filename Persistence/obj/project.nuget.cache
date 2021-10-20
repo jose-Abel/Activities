@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9H6kiNMUR8PlAEfmM5X3r8sefz7tix2iq2kDK0fOWIsax9gVKPpxiE0JmKXSNbqBWTwMf0N4HuOFOJkaINqgiw==",
+  "dgSpecHash": "IDKass2PhScMInM7sDbTM+OPgx2AqHpCXO4+30ca0xm0pNUSoLTQyKsjXddK+TU2/SLS5jP7TCVYYvmF9BPGYw==",
   "success": true,
   "projectFilePath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Persistence/Persistence.csproj",
   "expectedPackageFiles": [
