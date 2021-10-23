@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "m0w/x8ze5A55sSZodiWGKAQnb35jVD5LZDyjEkQmFOlVe6BZr1tEPdJMC5b1vcxEpTiZ+lmWYCAuRW8eUmR4jQ==",
+  "dgSpecHash": "IMre00c1dE2dtZc1OWyqbKHhuROj6Y2z7OOCSX3xNkkIZnaBrVFOaGI1AktAAWe/vUDNRs54XuP4mGYLL1jp5w==",
   "success": true,
   "projectFilePath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/home/bunbury/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/microsoft.data.sqlite.core/5.0.10/microsoft.data.sqlite.core.5.0.10.nupkg.sha512",
     "/home/bunbury/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "/home/bunbury/.nuget/packages/microsoft.entityframeworkcore/5.0.10/microsoft.entityframeworkcore.5.0.10.nupkg.sha512",

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZAXq0y5ZS4KdPahvkof/8d20D23QzsdkXyJF7QvcoaTtOzXhJhhtiDtPsz7659/VIMf+JgfnkvPajZPei7yvjQ==",
+  "dgSpecHash": "fB0emTYW0lD6ljH+o16RbjpFzpjbWwC4xfNOGzfIpN+7mAWIedCcP3Fh7qLctOByHgKFV4oe/ZOcPeOdNbaICA==",
   "success": true,
   "projectFilePath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
   "expectedPackageFiles": [
     "/home/bunbury/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/microsoft.data.sqlite.core/5.0.10/microsoft.data.sqlite.core.5.0.10.nupkg.sha512",
     "/home/bunbury/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
