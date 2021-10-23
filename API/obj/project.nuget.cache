@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fB0emTYW0lD6ljH+o16RbjpFzpjbWwC4xfNOGzfIpN+7mAWIedCcP3Fh7qLctOByHgKFV4oe/ZOcPeOdNbaICA==",
+  "dgSpecHash": "eyHdgLYC3+YTJWb+0sG4F7s3MxuJ+9V3QyYci/MxKWyk8USf48EbO3SzaK6Vb9yO6XsLZZbVYsPfq+tFNJZF2A==",
   "success": true,
   "projectFilePath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
   "expectedPackageFiles": [
+    "/home/bunbury/.nuget/packages/automapper/10.1.0/automapper.10.1.0.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/bunbury/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
@@ -40,7 +42,8 @@
     "/home/bunbury/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/home/bunbury/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "/home/bunbury/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
