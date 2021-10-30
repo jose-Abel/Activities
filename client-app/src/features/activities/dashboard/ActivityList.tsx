@@ -30,7 +30,9 @@ export default function ActivityList({activities}: Props) {
               </Item.Description>
               <Item.Extra>
 
-                <Button floated="right" content="View" color="blue"/>
+                <Button   
+                  floated="right" content="View"  color="blue"
+                />
 
                 <Label basic content={activity.category} />
 
