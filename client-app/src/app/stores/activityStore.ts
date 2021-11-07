@@ -4,7 +4,7 @@ import { Activity } from "../models/activity";
 
 export default class ActivityStore {
   activities: Activity[] = [];
-  selectedActivity: Activity | null = null;
+  selectedActivity: Activity | undefined = undefined;
   editMode = false;
   loading = false;
   loadingInitial = false;
@@ -14,7 +14,8 @@ export default class ActivityStore {
   }
 
   loadActivities = async () => {
-    this.loadingInitial = true;
+    this.setLoadingInitial(true);
+
     try {
       const activities = await agent.Activities.list();
 
@@ -23,11 +24,34 @@ export default class ActivityStore {
         this.activities.push(activity);
       });
 
-      this.loadingInitial = false;
+      this.setLoadingInitial(false);
 
     } catch(error) {
       console.log(error);
-      this.loadingInitial = false;
+
+      this.setLoadingInitial(false);
     }
+  }
+
+  setLoadingInitial = (state: boolean) => {
+    this.loadingInitial = state;
+  }
+
+  selectActivity = (id: string) => {
+    this.selectedActivity = this.activities.find(a => a.id === id);
+  }
+
+  cancelSelectedActivity = () => {
+    this.selectedActivity = undefined;
+  }
+
+  openForm = (id?: string) => {
+    id ? this.selectActivity(id) : this.cancelSelectedActivity();
+
+    this.editMode = true;
+  }
+
+  closeForm = () => {
+    this.editMode = false;
   }
 }
