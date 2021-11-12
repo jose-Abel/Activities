@@ -5,6 +5,7 @@ import {Form, Segment, Button } from "semantic-ui-react";
 import LoadingComponent from '../../../app/layout/LoadingComponent';
 import { useStore } from '../../../app/stores/store';
 import { v4 as uuid } from 'uuid';
+import { Link } from 'react-router-dom';
 
 export default observer(function AcvitityForm() {
   const {activityStore} = useStore();
@@ -105,6 +106,8 @@ export default observer(function AcvitityForm() {
         />
 
         <Button
+          as={Link}
+          to="/activities"
           floated="right" 
           type="button" 
           content="cancel"
