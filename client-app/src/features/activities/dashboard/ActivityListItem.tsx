@@ -1,5 +1,5 @@
 import React, { SyntheticEvent, useState } from 'react';
-import { Button, Item, Label } from 'semantic-ui-react';
+import { Button, Icon, Item, Label, Segment } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { Activity } from "../../../app/models/activity";
 import { useStore } from '../../../app/stores/store';
@@ -23,43 +23,54 @@ export default function ActivityListItem({activity}: Props) {
     deleteActivity(id);
   }
   return (
-    <Item
-      key={activity.id}
-    >
-      <Item.Content>
-        <Item.Header as="a">
-          {activity.title}
-        </Item.Header>
+    <Segment.Group>
+      <Segment>
+        <Item.Group>
+          <Item>
+            <Item.Image size="tiny" circular src="/assets/user.png" />
 
-        <Item.Meta>{activity.date}</Item.Meta>
+            <Item.Content>
+              <Item.Header 
+                as={Link} 
+                to={`/activities/${activity.id}`} 
+              >
+                {activity.title}
+              </Item.Header>
 
-        <Item.Description>
+              <Item.Description>
+                Hosted by Bob
+              </Item.Description>
 
-          <div>{activity.description}</div> 
+            </Item.Content>
+          </Item>
+        </Item.Group>
+      </Segment>
 
-          <div>{activity.city}, {activity.venue}</div> 
+      <Segment>
+        <span>
+          <Icon name="clock"/> {activity.date}
 
-        </Item.Description>
-        <Item.Extra>
+          <Icon name="marker"/> {activity.venue}
+          
+        </span>
+      </Segment>
 
-          <Button
-            as={Link}
-            to={`/activities/${activity.id}`}
-            floated="right" content="View"  color="blue"
-          />
+      <Segment secondary>
+        Attendees go here
+      </Segment>
 
-          <Button
-            name={activity.id}
-            onClick={(e) => {handleActivityDelete(e, activity.id)}}
-            floated="right" content="Delete"  color="red"
-            loading={loading && target === activity.id}
-          />
+      <Segment clearing>
+        <span>{activity.description}</span>
 
+        <Button 
+          as={Link}
+          to={`/activities/${activity.id}`}
+          color='teal'
+          floated='right'
+          content="View"
+        />
+      </Segment>
 
-          <Label basic content={activity.category} />
-
-        </Item.Extra>
-      </Item.Content>
-    </Item>
+    </Segment.Group>
   )
 }
