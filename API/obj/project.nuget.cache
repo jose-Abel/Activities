@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "8tFYV7qH39DAJG4YvbrCclsZ92oOCRYEZw21gYTvUJc1yrfpjfsGL2ckqVQp0Xsdv4xy9zTTl71kCyhVmZjGtQ==",
+  "dgSpecHash": "w775mblb0PFNhobN2eHmYxjitmp5rkyG/FzYdw/VieiN25Eg8zf5yvZI+AROugAqCqy1PsAdLG91swLDWeg2Hw==",
   "success": true,
   "projectFilePath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
   "expectedPackageFiles": [
     "/home/bunbury/.nuget/packages/automapper/10.1.0/automapper.10.1.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/fluentvalidation/10.3.4/fluentvalidation.10.3.4.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/fluentvalidation.aspnetcore/10.3.4/fluentvalidation.aspnetcore.10.3.4.nupkg.sha512",
+    "/home/bunbury/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.3.4/fluentvalidation.dependencyinjectionextensions.10.3.4.nupkg.sha512",
     "/home/bunbury/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/bunbury/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/home/bunbury/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
