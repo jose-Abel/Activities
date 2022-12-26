@@ -1571,19 +1571,19 @@
     ]
   },
   "packageFolders": {
-    "/home/bunbury/.nuget/packages/": {}
+    "/Users/guest1/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
+      "projectUniqueName": "/Users/guest1/Documents/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
       "projectName": "API",
-      "projectPath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
-      "packagesPath": "/home/bunbury/.nuget/packages/",
-      "outputPath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/obj/",
+      "projectPath": "/Users/guest1/Documents/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/API.csproj",
+      "packagesPath": "/Users/guest1/.nuget/packages/",
+      "outputPath": "/Users/guest1/Documents/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/bunbury/.nuget/NuGet/NuGet.Config"
+        "/Users/guest1/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1595,8 +1595,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Application/Application.csproj": {
-              "projectPath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Application/Application.csproj"
+            "/Users/guest1/Documents/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Application/Application.csproj": {
+              "projectPath": "/Users/guest1/Documents/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Application/Application.csproj"
             }
           }
         }
@@ -1640,7 +1640,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }

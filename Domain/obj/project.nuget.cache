@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nBJymO5JaycnP+zMjglIIKWhRgu7h53lpHDiqYGRN0cX3BLub9gL5DSKeJAoTr2tZOJfyULRHZrF4FBxhZXy4w==",
+  "dgSpecHash": "0Ol9fBsFohD1pz4A2tVfWeJf634rdNlXIkkdGIwg/AseW+OEiDY9lyK3UXPnuMDIFOTsy2iaBzQ7+S3ceBiGvQ==",
   "success": true,
-  "projectFilePath": "/home/bunbury/Documents/Studying/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Domain/Domain.csproj",
+  "projectFilePath": "/Users/guest1/Documents/Dotnet/Build an app using ASP.NET Core, React (with Typescript) and Mobx/reactivities/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
